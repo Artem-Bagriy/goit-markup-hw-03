@@ -2,6 +2,11 @@ html {
     box-sizing: border-box;
 }
 
+.conteiner {
+    height: 900px;
+    margin: 0 auto;
+}
+
 *,
 *::before,
 *::after {
@@ -11,7 +16,6 @@ html {
 .features-list {
     margin: 0 auto;
     list-style: none;
-    margin-left: 260px;
     padding: 0;
     padding-bottom: 50px;
 }
@@ -75,15 +79,15 @@ p {
 
 .button {
     border: 1px solid #626262;
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     min-width: 164px;
     height: 60px;
     font: 'Playfair Display', serif;
     cursor: pointer;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px;
     margin-right: 50%;
-    margin-left: 44%;
+    margin-left: 44%; */
     font-size: 20px;
     font-weight: 400;
 
