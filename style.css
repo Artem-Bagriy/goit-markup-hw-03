@@ -2,8 +2,8 @@ html {
     box-sizing: border-box;
 }
 
-.conteiner {
-    height: 900px;
+.container {
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -22,11 +22,11 @@ html {
 
 .site-navigation li {
     list-style: none;
-    display: inline-block;
     vertical-align: top;
     margin-right: 124px;
     font-size: 14px;
     font-weight: 400;
+    display: inline-block;
 }
 
 .site-navigation li:last-child {
